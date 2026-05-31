@@ -64,7 +64,7 @@ const reviewGuide = (() => {
   const m = REVIEW.match(/##\s*다음 화 생성 지침\s*([\s\S]*?)(?:\n##\s|$)/);
   return m ? m[1].trim() : "";
 })();
-const SERIES_TITLE = "처형된 영애는 무도회에 가지 않는다";
+const SERIES_TITLE = "단두대에서 돌아온 영애";
 const TARGET = 100;
 const ACT =
   nextEp <= 20 ? "1막 (회귀·회피)" :
